@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Orbitron:wght@400..900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+   
+}
+#head{
+    position: absolute;
+    left: 15vw;
+   
+}
+
+
+h2{
+    font-size: 50px;
+    background: linear-gradient(to left bottom,rgb(255, 128, 0),rgb(128, 0, 255),rgb(255, 0, 149));
+    background-size: 400% 400%;
+    color: transparent;
+    background-clip: text;
+    animation:bg 5s ease infinite;
+}
+@keyframes bg{
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 100%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
+.container0{
+    display:flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(7, 247, 191);
+    height: 10vh;
+   
+    
+   
+}
+.container0 div {
+    padding-right: 55px;
+    padding-top: 20px;
+    background-color: rgb(7, 247, 191);
+    
+}
+a{
+    text-decoration: none;
+    background-color: rgb(7, 247, 191);
+    font-size: 25px;
+    color: blue;
+    transition: 1.5s;
+    
+}
+a:hover{
+   
+    color: darkorange;
+   
+}
+.photo{
+    
+    height: 500px;
+    width: 30vw;
+    position: relative;
+    left:55vw;
+    top: 10vh;
+    border: 8px solid greenyellow ;
+    border-radius: 15px 0px 15px;
+
+}
+.photo:hover{
+    animation: bor 2s ease-in-out infinite;
+}
+img{
+    height: 500px;
+    width: 30vw;
+}
+@keyframes bor{
+    0%{
+        border-color: aqua;
+    }
+    50%{
+        border-color: blue;
+    }
+    100%{
+        border-color:blueviolet;
+    }
+}
+.info{
+    position:relative;
+}
+.info h2{
+    position: absolute;
+    top: 28vh;
+    left: 2vw;
+}
+.info h3{
+    position: absolute;
+    top:44vh;
+    left:2vw;
+    font-size: 25px;
+    font-style: normal;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+#t{
+    top:52vh;
+    
+}
+#t1{
+    top: 59vh;
+}
+.container2{
+    margin-top: 30vh;
+   min-height: 700px;
+   margin-bottom: 10vh;
+}
+
+.container2 h2, .container3 h2, .container4 h2, .container5 h2{
+    text-align: center;
+    margin-bottom: 10vh;
+
+  }
+  h2{
+    background-color: rgb(149, 12, 241);
+  }
+ TABLE {
+ margin-left: 30vw;
+  padding-top: 50PX;
+  
+  }
+  .container2 table{
+    margin-left:25vw ;
+  }
+  .container4 table{
+    margin-left: 38vw;
+  }
+  td{
+    padding-bottom: 20PX;
+    font-size: 25px;
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+    
+    
+  }
+  .conatiner3 {
+ 
+    min-height: 700px;
+    margin-bottom:10vh;
+  }
+  .container4{
+   margin-top: 10vh;
+    min-height: 700px;
+  }
+ .container4 table tr td{
+    padding: 20px;
+ }
+ .container5{
+    margin-top: 10vh;
+ }
+ .intern{
+    min-height: 500px;
+    margin-left: 40vw;
+ }
+ .intern h3{
+   margin-left: 7vw;
+ }
+ .intern img{
+    height: 300px;
+    width: 300px;
+ }
+ 
+ .cs {
+   display: flex;
+   padding: 20px;
+   
+    flex-wrap: wrap;
+ }
+ .cs .box img{
+    margin: 20px;
+    height:300px;
+    width: 300px;
+ }
+ .container2 ,.container3, .container4,.container5{
+   border:5px solid rgb(32, 22, 219);
+ }
+ td a{
+    background-color:transparent;
+ }
+ 
+ .b1{
+    
+    min-height: 200px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    text-align: justify;
+    border-radius: 10px;
+    margin-bottom: 15vh;
+ 
+ }
+ .b1 p,.b2 p,.b3 p,.b4 p,.b5 p{
+    background-color: rgb(119, 124, 124);
+    color: rgb(92, 2, 153);
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+ }
+ .b1 p{
+    border-radius: 0%;
+ }
+ .b1 p:nth-child(1){
+    border-radius: 10px 10px 0px 0px;
+ }
+ .b1 p:nth-child(3){
+    border-radius: 0px 0px 10px 10px;
+ }
+ .course{
+   
+    display:flex;
+    justify-content: space-evenly;
+    flex-basis:25%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    flex-wrap: wrap;
+   
+ }
+ .b2,.b3,.b4,.b5{
+    min-height: 400px;
+    width:40%;
+    text-align: justify;
+    margin-left: 20px;
+    
+ }
+ .container2,.container3,.container4,.container5,.container6{
+    width: 95vw;
+    margin-left: 2vw;
+ }
+.h3{
+    text-align: center;
+}
